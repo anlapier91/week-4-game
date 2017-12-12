@@ -1,0 +1,15 @@
+Crystal Game Pseudocode
+
+ User loads page
+
+ On screen there are 7 features: Target Score, Number of Wins, Number of Losses, and Four Crystal immages that function as buttons
+
+ Computer selects 5 random numbers: 1 for the target score, and 4 for the four crystals.
+ 	The number for the target score should be a random number between 19-120.
+ 	The crystals should have a random value between 1-12.
+
+ When the crystal is clicked, the value of the crystal is added to the players score, after which the counter is updated
+
+ This repeats until the computer score is reached.  iF the player score is equal to the computer score, the player gains 1 win.  If the player score is greater than the computer score, the player gains 1 loss.
+
+ After a win or loss is added to the total, the user score resets, and new values are selected for the computer score and each of the four crystals.
